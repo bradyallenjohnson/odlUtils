@@ -1,0 +1,30 @@
+{
+    "timing-analysis" : {
+        "events" : [
+            { "name"       : "Java Build",
+              "start-tag"  : "Building ODL :: sfc :: sfc",
+              "end-tag"    : "T E S T S"
+            },
+            { "name"       : "Features Build",
+              "start-tag"  : "Building ODL :: sfc :: odl",
+              "end-tag"    : "T E S T S"
+            },
+            { "name"       : "Karaf Build",
+              "start-tag"  : "Building ODL :: sfc :: sfc-karaf",
+              "end-tag"    : "Reactor Summary"
+            },
+            { "name"       : "Findbugs - included in Java Build",
+              "start-tag"  : ">>> findbugs-maven-plugin",
+              "end-tag"    : "Done FindBugs Analysis"
+            },
+            { "name"       : "Unit-Test",
+              "start-tag"  : "Surefire report directory: /w/workspace/sfc-maven-verify-oxygen-mvn33-openjdk8/sfc",
+              "end-tag"    : "Results :"
+            },
+            { "name"       : "SingleFeatureTest",
+              "start-tag"  : "Surefire report directory: /w/workspace/sfc-maven-verify-oxygen-mvn33-openjdk8/features",
+              "end-tag"    : "in org.opendaylight.odlparent.featuretest.SingleFeatureTest"
+            }
+        ]
+    }
+}
